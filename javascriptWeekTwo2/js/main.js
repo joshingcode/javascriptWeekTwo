@@ -65,23 +65,27 @@ console.log(`Hello, my name is ${student2[0]} ${student2[1]} and I'm ${student2[
 //[height,mass]
 
 
-let catOne=[9,8]
-let mouseOne=[10,45]
+let tomOne=[9,8]
+let jerryOne=[10,45]
 
 
 // Compare the BMI (Body Mass Index) of Tom & Jerry using the formula below:
 // BMI = mass / height ^2 = mass / (height * height)
 
-let catBMI= catOne[1]/ catOne[0]^2 
-console.log(catBMI)
+let jerryBMI= jerryOne[1]/ jerryOne[0]^2 
+console.log(jerryBMI)
 
-let mouseBMI= mouseOne[1]/mouseOne[0]^2
-console.log(mouseBMI)
+let tomBMI= tomOne[1]/tomOne[0]^2
+console.log(tomBMI)
 
-// Store Tom & Jerry’s mass and height as variables. Calculate both their BMI’s. Create a Boolean
-// variable containing information about whether Tom has a higher BMI than Jerry. Print a string to the
+// Store Tom & Jerry’s mass and height as variables. 
+// Calculate both their BMI’s. Create a Boolean
+// variable containing information about whether Tom has a higher BMI than Jerry. ?
+// Print a string to the
 // console with the variable from step 3 ( e.g. Is Tom’s BMI higher than Jerry’s? false).
 
-if(catBMI < mouseBMI){
-    console.log()
+if(jerryBMI > tomBMI){
+    console.log("Tom's BMI is higher than Jerry's")
+}else{
+    console.log("Jerry is a big man")
 }
